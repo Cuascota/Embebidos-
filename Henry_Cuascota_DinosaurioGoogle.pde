@@ -1,3 +1,12 @@
+/*
+           UNIVERSIDAD TÉCNICA DEL NORTE 
+                 FICA-CIERCOM
+   
+Henry Cuascota
+Embebidos
+                      Tema: 
+                 Dinosaurio de google
+*/
 void setup(){
 size(900,700); // tamaño de interfaz
 background(224);   // codificacion o colores rgb, 
@@ -7,9 +16,10 @@ background(224);   // codificacion o colores rgb,
 void draw(){
 
 background(224);   // codificacion o colores rgb, 
-fill(40,40,40);
+fill(40,40,40);    // color del dinosaurio
 beginShape();
-vertex(50,200);
+// vertices para graficar el dinosaurio 
+vertex(50,200); 
 vertex(75,200);
 vertex(75,250);
 vertex(100,250);
@@ -73,9 +83,9 @@ vertex(100,375);
 vertex(75,375);
 vertex(75,350);
 vertex(50,350);
-vertex(50,200);
+vertex(50,200);// final de los vertices para completar el dinosaurio
 endShape();
 
- fill(255);
- rect(325,85,20,20); // rect(x,y,ancho.largo)
+ fill(255); // color del rectangulo
+ rect(325,85,20,20); // rect(x,y,ancho.largo) para el ojo
 }
