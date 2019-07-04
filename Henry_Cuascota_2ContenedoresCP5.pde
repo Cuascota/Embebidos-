@@ -85,7 +85,7 @@ void draw(){
          textSize(10);                      //tamaño de letra
           text(" CX1 NIVEL MEDIO",900,200);  // imprime nivel en el que se encuentra
     }
-    if(cx1>65&&cx1<=100) {// condicion para asignar color amarillo
+    if(cx1>65&&cx1<=100) {// condicion para asignar color rojo
      cp5.getController("CONTENEDOR1").setColorForeground(color(255,0,0));
       fill(57,198,179);
        rect(900,190,90,20);              // rectangulo para borar el mensaje anterior y imprima el altual
@@ -114,7 +114,7 @@ void draw(){
          textSize(10);                     //tamaño de letra
           text(" CX2 NIVEL MEDIO",900,300); // imprime nivel en el que se encuentra
     }
-    if(cx2>65&&cx2<=100) {// condicion para asignar color amarillo
+    if(cx2>65&&cx2<=100) {// condicion para asignar color rojo
      cp5.getController("CONTENEDOR2").setColorForeground(color(255,0,0));
       fill(57,198,179);
        rect(900,290,90,20);             // rectangulo para borar el mensaje anterior y imprima el altual
